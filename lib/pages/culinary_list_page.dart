@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/culinary_list_model.dart';
-import 'detail_page.dart';
+import 'culinary_detail_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

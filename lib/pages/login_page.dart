@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/culinary_list_model.dart';
-import 'home_page.dart';
+import 'culinary_list_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
