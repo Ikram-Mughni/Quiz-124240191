@@ -15,10 +15,10 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Selamat Datang, ${dummyUser.username}',
+          'aloo, welkom yak, ${dummyUser.username}!',
           style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.green,
         centerTitle: true,
       ),
       body: ListView.builder(

@@ -48,10 +48,10 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Login Page',
+          'login dulu yuk',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.green,
         centerTitle: true,
       ),
       body: Center(
@@ -63,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
               const Icon(
                 Icons.lock_person_rounded,
                 size: 80,
-                color: Colors.blue,
+                color: Colors.green,
               ),
               const SizedBox(height: 16),
               const Text(
@@ -72,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               const SizedBox(height: 8),
               const Text(
-                'Silakan login untuk melanjutkan',
+                'coba login deh untuk ngeliat kuliner makanan',
                 style: TextStyle(color: Colors.grey),
               ),
               const SizedBox(height: 24),
@@ -99,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
         border: OutlineInputBorder(
           borderRadius: const BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
-            color: isLoginFailed ? Colors.red : Colors.blue,
+            color: isLoginFailed ? Colors.red : Colors.green,
           ),
         ),
         enabledBorder: OutlineInputBorder(
@@ -112,7 +112,7 @@ class _LoginPageState extends State<LoginPage> {
         focusedBorder: OutlineInputBorder(
           borderRadius: const BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
-            color: isLoginFailed ? Colors.red : Colors.blue,
+            color: isLoginFailed ? Colors.red : Colors.green,
             width: 2.0,
           ),
         ),
@@ -132,7 +132,7 @@ class _LoginPageState extends State<LoginPage> {
         border: OutlineInputBorder(
           borderRadius: const BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
-            color: isLoginFailed ? Colors.red : Colors.blue,
+            color: isLoginFailed ? Colors.red : Colors.green,
           ),
         ),
         enabledBorder: OutlineInputBorder(
@@ -145,7 +145,7 @@ class _LoginPageState extends State<LoginPage> {
         focusedBorder: OutlineInputBorder(
           borderRadius: const BorderRadius.all(Radius.circular(8.0)),
           borderSide: BorderSide(
-            color: isLoginFailed ? Colors.red : Colors.blue,
+            color: isLoginFailed ? Colors.red : Colors.green,
             width: 2.0,
           ),
         ),
@@ -158,7 +158,7 @@ class _LoginPageState extends State<LoginPage> {
     return ElevatedButton(
       onPressed: _handleLogin,
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.green,
         foregroundColor: Colors.white,
         minimumSize: const Size(double.infinity, 45),
       ),

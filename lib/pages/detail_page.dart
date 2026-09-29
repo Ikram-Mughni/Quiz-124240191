@@ -39,7 +39,7 @@ void _toggleFavorite() {
           widget.item.name,
           overflow: TextOverflow.ellipsis,
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.green,
         foregroundColor: Colors.white,
         actions: [
           IconButton(
@@ -92,7 +92,7 @@ void _toggleFavorite() {
                   _buildDetailRow('Rasa', widget.item.flavor),
                   _buildDetailRow('Kepedasan', widget.item.spicyLevel),
                   _buildDetailRow('Disajikan', widget.item.servingTime),
-                  _buildDetailRow('Favorit', widget.item.isFavorite ? 'Ya (Disukai)' : 'Tidak'),
+                  _buildDetailRow('Favorit', widget.item.isFavorite ? 'Ya, Suka' : 'Tidak'),
                   const Divider(height: 24, thickness: 1),
                   const Text(
                     'Deskripsi:',
