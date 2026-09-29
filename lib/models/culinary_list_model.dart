@@ -1,20 +1,17 @@
 class UserModel {
   final String username;
   final String password;
-  final String fullName;
 
   UserModel({
     required this.username,
     required this.password,
-    required this.fullName,
   });
 }
 
 // Kredensial Dummy untuk Validasi Login
 UserModel dummyUser = UserModel(
-  username: "user",
+  username: "ikramm",
   password: "191",
-  fullName: "ikramm",
 );
 
 class Culinary {
